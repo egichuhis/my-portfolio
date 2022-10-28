@@ -1,6 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/crete-round');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -79,7 +79,6 @@ body {
 .headline h2 {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -110,9 +109,22 @@ body {
   padding-right: 24px;
 }
 
+.socials {
+  display: flex;
+}
+
 .headline .socials {
   display: flex;
   order: 3;
   padding-left: 24px;
   padding-right: 24px;
 }
+
+.headline .socials img {
+  Width: 17.99px;
+  Height: 20px;
+  margin-left:21px;
+}
+
+
+
