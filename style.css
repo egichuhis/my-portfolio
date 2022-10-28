@@ -74,6 +74,7 @@ body {
   flex-grow: 0;
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: -10px;
 }
 
 .headline h2 {
@@ -91,6 +92,7 @@ body {
   flex-grow: 0;
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: -40px;
 }
 
 .headline h3 {
@@ -107,6 +109,7 @@ body {
   flex-grow: 0;
   padding-left: 24px;
   padding-right: 24px;
+  margin-top: -15px;
 }
 
 .socials {
@@ -124,6 +127,16 @@ body {
   Width: 17.99px;
   Height: 20px;
   margin-left:21px;
+}
+
+.after-socials-img {
+  order: 5;
+}
+
+.after-social-img {
+  order: 5;
+  margin-left: 71%;
+  margin-top: -43%;
 }
 
 
