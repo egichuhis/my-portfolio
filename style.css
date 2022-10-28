@@ -1,8 +1,9 @@
 @import url('http://fonts.cdnfonts.com/css/crete-round');
-@import url('http://fonts.cdnfonts.com/css/roboto');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 }
 
 .toolbar {
@@ -71,4 +72,47 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.headline h2 {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.headline h3 {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.headline .socials {
+  display: flex;
+  order: 3;
+  padding-left: 24px;
+  padding-right: 24px;
 }
