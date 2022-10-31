@@ -21,7 +21,7 @@ body {
 }
 
 .toolbar a {
-  width: 77px;
+  width: auto;
   height: 24px;
   font-style: normal;
   font-weight: 700;
