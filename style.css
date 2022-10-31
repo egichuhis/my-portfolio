@@ -114,6 +114,7 @@ body {
 
 .socials {
   display: flex;
+  list-style: none;
 }
 
 .headline .socials {
