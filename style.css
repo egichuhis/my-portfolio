@@ -344,11 +344,13 @@
 
 .mask-group {
   /* position: absolute; */
+  order: 0;
   width: 327px;
   height: 386px;
   left: 0px;
   top: 0px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(./images/MaskImgPlaceholder.png);
+  margin-bottom: -24px;
 }
 
 .right-bloc {
@@ -386,5 +388,109 @@
   color: #FFFFFF;
   flex: none;
   order: 1;
+  flex-grow: 0;
+}
+
+.other-tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 236px;
+  height: 40px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.other-tags .html {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 56px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.other-tags .bootstrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 95px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.other-tags .ruby {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: 61px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.24);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.other-tags li span {
+  width: 71px;
+  height: 20px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.action-sec {
+  width: 327px;
+  height: 48px;
+  background: #FF6B00;
+}
+
+.action-sec button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #FF6B00;
+  border: none;
+}
+
+.action-sec span {
+  width: 100px;
+  height: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
   flex-grow: 0;
 }
