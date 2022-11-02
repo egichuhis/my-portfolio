@@ -459,9 +459,11 @@
 }
 
 .action-sec {
+  display: flex;
   width: 327px;
   height: 48px;
   background: #FF6B00;
+  justify-content: center;
 }
 
 .action-sec button {
@@ -479,7 +481,6 @@
 .action-sec span {
   width: 100px;
   height: 24px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
