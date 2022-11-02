@@ -336,7 +336,7 @@
   padding: 0px 24px;
   gap: 24px;
   width: 375px;
-  height: 2436px;
+  height: 2650px;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -415,6 +415,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .other-tags .bootstrap {
@@ -428,6 +429,7 @@
   flex: none;
   order: 1;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .other-tags .ruby {
@@ -441,6 +443,7 @@
   flex: none;
   order: 2;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .other-tags li span {
