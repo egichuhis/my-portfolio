@@ -157,6 +157,9 @@
   height: 3455px;
   left: 0px;
   top: 682px;
+  background-color: #fff;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .recent-works-title {
@@ -579,3 +582,94 @@
   flex-grow: 0;
 }
 
+.skills-section {
+  background-color: #1C1A19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 375px;
+  height: 1000.46px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  position: absolute;
+  top: 5250px;
+  left: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.title-lang {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.title-lang img {
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+  transform: rotate(-45deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-lang span {
+  width: 164px;
+  height: 24px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 12px;
+}
+
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.lang-list li {
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
