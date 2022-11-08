@@ -683,7 +683,7 @@
   gap: 58px;
   position: absolute;
   width: 375px;
-  height: 844px;
+  height: auto;
   left: 0px;
   top: 6238px;
 }
@@ -841,4 +841,14 @@
 
 .socials-footer li {
   margin-left: 20px;
+}
+
+.footer-hr {
+  position: absolute;
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px/2 - 0.5px);
+  bottom: 80px;
+  background: #0D151E;
+  border-radius: 10px;
 }
