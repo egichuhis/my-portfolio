@@ -798,3 +798,47 @@
   line-height: 24px;
   color: #3C3A39;
 }
+
+.get-in-touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  color: #fff;
+  margin-top: 26px;
+}
+
+.get-in-touch span {
+  width: 107px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.socials-footer {
+  display: flex;
+  order: 4;
+  list-style: none;
+}
+
+.socials-footer li {
+  margin-left: 20px;
+}
