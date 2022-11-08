@@ -514,6 +514,23 @@
   margin-left: 12px;
 }
 
+.get-in-touch span {
+  width: 107px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .other-tags li span {
   width: 71px;
   height: 20px;
@@ -684,7 +701,7 @@
   position: absolute;
   width: 375px;
   height: auto;
-  left: 0px;
+  left: 0;
   top: 6238px;
 }
 
@@ -692,7 +709,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 216px;
@@ -704,13 +721,13 @@
 .contact-intro-cont p {
   width: 327px;
   height: 216px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -720,7 +737,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: auto;
@@ -731,22 +748,20 @@
 }
 
 .name-div {
-  /* position: absolute; */
   height: 48px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 48px/2);
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
   margin-left: 24px;
   margin-right: 24px;
 }
 
 #name {
-  /* position: absolute; */
   height: 18px;
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px/2);
-  font-family: 'Inter';
+  top: calc(50% - 18px / 2);
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -757,22 +772,20 @@
 }
 
 .email-div {
-  /* position: absolute; */
   height: 48px;
-  left: 0px;
-  right: 0px;
-  top: calc(50% - 48px/2);
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
   margin-left: 24px;
   margin-right: 24px;
 }
 
 #email {
-  /* position: absolute; */
   height: 18px;
   left: 16px;
   right: 16px;
-  top: calc(50% - 18px/2);
-  font-family: 'Inter';
+  top: calc(50% - 18px / 2);
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -791,12 +804,12 @@
 }
 
 #message {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .get-in-touch {
@@ -807,30 +820,13 @@
   gap: 10px;
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
   border: none;
   color: #fff;
   margin-top: 26px;
-}
-
-.get-in-touch span {
-  width: 107px;
-  height: 24px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .socials-footer {
@@ -847,8 +843,8 @@
   position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 80px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
