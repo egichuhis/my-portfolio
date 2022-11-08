@@ -331,7 +331,7 @@
 }
 
 .see-project-btn span {
-  width: 100px;
+  width: fit-content;
   height: 24px;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -568,7 +568,7 @@
 }
 
 .about-title {
-  width: 327px;
+  width: fit-content;
   height: 79px;
   font-style: normal;
   font-weight: 400;
@@ -607,6 +607,7 @@
   flex: none;
   order: 2;
   flex-grow: 0;
+  border: none;
 }
 
 .skills-section {
