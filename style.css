@@ -321,7 +321,7 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: fit-content;
   height: 48px;
   background: #ff6b00;
   flex: none;
@@ -837,6 +837,28 @@
   border: none;
   color: #fff;
   margin-top: 26px;
+}
+
+.get-in-touch:hover,
+.get-resume-btn:hover,
+.see-project-btn:hover {
+  border: #ff6b00 solid 1px;
+  background-color: #FFF5E1;
+}
+
+.get-in-touch span:hover,
+.get-resume-btn span:hover,
+.see-project-btn span:hover {
+  color: #ff6b00;
+}
+
+.action-sec button:hover {
+  border: #ff6b00 solid 1px;
+  background-color: #FFF5E1;
+}
+
+.action-sec button span:hover {
+  color: #ff6b00;
 }
 
 .socials-footer {
