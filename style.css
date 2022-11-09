@@ -321,7 +321,7 @@
   align-items: center;
   padding: 12px;
   gap: 10px;
-  width: 124px;
+  width: fit-content;
   height: 48px;
   background: #ff6b00;
   flex: none;
@@ -514,6 +514,23 @@
   margin-left: 12px;
 }
 
+.get-in-touch span {
+  width: 107px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .other-tags li span {
   width: 71px;
   height: 20px;
@@ -673,4 +690,239 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 58px;
+  position: absolute;
+  width: 375px;
+  height: auto;
+  left: 0;
+  top: 6238px;
+}
+
+.contact-intro-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: 216px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.contact-intro-cont p {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.the-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  width: 327px;
+  height: auto;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-align: center;
+}
+
+.name-div {
+  height: 48px;
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
+  border-bottom: #dbd8d7 solid 1px;
+  width: 110%;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+#name {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  border: none;
+}
+
+.email-div {
+  height: 48px;
+  left: 0;
+  right: 0;
+  top: calc(50% - 48px / 2);
+  border-bottom: #dbd8d7 solid 1px;
+  width: 110%;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+#email {
+  height: 18px;
+  left: 16px;
+  right: 16px;
+  top: calc(50% - 18px / 2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+  border: none;
+}
+
+.message-div {
+  height: 114px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  width: 110%;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+#message {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  border: none;
+  background: #fbf8f7;
+}
+
+.get-in-touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  border: none;
+  color: #fff;
+  margin-top: 26px;
+}
+
+.get-in-touch:hover,
+.get-resume-btn:hover,
+.see-project-btn:hover {
+  border: #ff6b00 solid 1px;
+  background-color: #fff5e1;
+}
+
+.get-in-touch span:hover,
+.get-resume-btn span:hover,
+.see-project-btn span:hover {
+  color: #ff6b00;
+}
+
+.action-sec button:hover {
+  border: #ff6b00 solid 1px;
+  background-color: #fff5e1;
+}
+
+.action-sec button span:hover {
+  color: #ff6b00;
+}
+
+.socials-footer {
+  display: flex;
+  order: 4;
+  list-style: none;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 24px;
+}
+
+.socials-footer li {
+  margin-left: 20px;
+}
+
+.footer-hr {
+  /* position: absolute; */
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  margin-top: -40px;
+  margin-right: 38%;
+  background: #0d151e;
+  border-radius: 10px;
+  order: 5;
+}
+
+.fa-brands {
+  color: #505f79;
+}
+
+.fa-brands .fa-github {
+  height: 20px;
+  width: 17.985200881958008px;
+  left: 0.013671875px;
+  top: 0;
+  border-radius: 0;
+}
+
+.fa-brands .fa-linkedin-in {
+  width: 24px;
+  height: 24px;
+}
+
+.fa-brands .fa-angellist {
+  position: absolute;
+  left: 14.58%;
+  right: 14.58%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.fa-brands .fa-twitter {
+  position: absolute;
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
+}
+
+.fa-brands .fa-meta {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
 }
