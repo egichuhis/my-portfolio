@@ -752,7 +752,7 @@
   left: 0;
   right: 0;
   top: calc(50% - 48px / 2);
-  border-bottom: #DBD8D7 solid 1px;
+  border-bottom: #dbd8d7 solid 1px;
   width: 110%;
   margin-top: 24px;
   margin-left: 36px;
@@ -779,7 +779,7 @@
   left: 0;
   right: 0;
   top: calc(50% - 48px / 2);
-  border-bottom: #DBD8D7 solid 1px;
+  border-bottom: #dbd8d7 solid 1px;
   width: 110%;
   margin-top: 24px;
   margin-left: 36px;
@@ -802,7 +802,6 @@
 }
 
 .message-div {
-  width: 327px;
   height: 114px;
   flex: none;
   order: 2;
@@ -820,7 +819,7 @@
   line-height: 24px;
   color: #3c3a39;
   border: none;
-  background: #FBF8F7;
+  background: #fbf8f7;
 }
 
 .get-in-touch {
@@ -844,6 +843,9 @@
   display: flex;
   order: 4;
   list-style: none;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: 24px;
 }
 
 .socials-footer li {
@@ -851,11 +853,54 @@
 }
 
 .footer-hr {
-  position: absolute;
+  /* position: absolute; */
   width: 134px;
   height: 5px;
   left: calc(50% - 134px / 2 - 0.5px);
-  bottom: 80px;
+  margin-top: -40px;
+  margin-right: 38%;
   background: #0d151e;
   border-radius: 10px;
+  order: 5;
+}
+
+.fa-brands {
+  color: #505f79;
+}
+
+.fa-brands .fa-github {
+  height: 20px;
+  width: 17.985200881958008px;
+  left: 0.013671875px;
+  top: 0;
+  border-radius: 0;
+}
+
+.fa-brands .fa-linkedin-in {
+  width: 24px;
+  height: 24px;
+}
+
+.fa-brands .fa-angellist {
+  position: absolute;
+  left: 14.58%;
+  right: 14.58%;
+  top: 0%;
+  bottom: 0%;
+}
+
+.fa-brands .fa-twitter {
+  position: absolute;
+  left: 0.04%;
+  right: 0.03%;
+  top: 0.02%;
+  bottom: 0%;
+}
+
+.fa-brands .fa-meta {
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 16.67%;
+  bottom: 16.67%;
 }
