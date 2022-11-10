@@ -68,9 +68,9 @@
   left: 0;
   top: 92px;
   background: #1c1a19;
-  background-image: url(./images/after-socials.png);
+  background-image: url(./images/Illustration-header.png);
   background-repeat: no-repeat;
-  background-position: bottom 10px right 0;
+  background-position: -45% -5%;
 }
 
 .headline h1 {
@@ -957,6 +957,74 @@
   .menu-items {
     display: flex;
     list-style: none;
+  }
+
+  .headline {
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    padding: 192px 0px;
+    gap: 24px;
+    position: absolute;
+    height: 739px;
+    left: 0px;
+    top: 72px;
+    background-image: url(./images/Illustration-header.png);
+    background-position: bottom 60px right 0;
+  }
+
+  .headline h1 {
+    width: 566px;
+    height: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    color: #F55800;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 143px;
+
+  }
+
+  .headline h2 {
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 143px;
+  }
+
+  .headline p {
+    width: 566px;
+    height: 123px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
+    flex: none;
+    flex-grow: 0;
+    margin-left: 143px;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 20px;
+    height: 98.96px;
+    left: 36px;
+    top: 394px;
   }
 
 }
