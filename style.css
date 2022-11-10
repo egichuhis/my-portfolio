@@ -1024,7 +1024,11 @@
     width: 20px;
     height: 98.96px;
     left: 36px;
-    top: 394px;
+    top: 230px;
+  }
+
+  .socials li {
+    margin-top: 20px;
   }
 
 }
