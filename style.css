@@ -1132,4 +1132,18 @@
   .get-resume-btn {
     margin-left: 142px;
   }
+
+  .skills-section {
+    width: 100vw;
+    flex-direction: row;
+    height: 320px;
+    justify-content: space-around;
+    margin-top: -240px;
+  }
+
+
+  
+
+
+
 }
