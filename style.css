@@ -1141,9 +1141,55 @@
     margin-top: -240px;
   }
 
+  .title-lang {
+    width: 228px;
+    font-family: 'Inter';
+    display: flex;
+  }
+
+  .contact-form {
+    width: 100vw;
+    margin-left: 142px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .contact-intro-cont {
+    grid-column: 1 / span 1;
+    width: 455px;
+    height: 256px;
+  }
+
+  .the-form {
+    grid-column: 2 / span 1;
+    width: 684px;
+    height: 330px;
+  }
+
+  .socials-footer {
+    grid-column: 1 / span 2;
+    justify-content: center;
+  }
+
+  .footer-hr {
+    display: none;
+  }
+
+  .contact-intro-cont p {
+    width: 455px;
+    height: 256px;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #262626;
+    text-align: left;
+  }
+
+  #message {
+    width: 100%;
+  }
 
   
-
-
 
 }
