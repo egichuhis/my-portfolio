@@ -587,9 +587,9 @@
   left: 0;
   top: 4450px;
   background: #1c1a19;
-  background-image: url(./images/Frame.png);
+  background-image: url(./images/about-bg.png);
   background-repeat: no-repeat;
-  background-position: bottom 130px right 0;
+  background-position: -110% 105%;
   border-bottom: 1px solid #fff;
 }
 
@@ -1033,7 +1033,7 @@
 
   .works-main-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100vw;
   }
 
@@ -1060,6 +1060,7 @@
 
   .cards-container {
     width: fit-content;
+    height: 500px;
   }
 
   .card {
@@ -1100,5 +1101,35 @@
     line-height: 28px;
   }
 
+  .card-works-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 800px;
+  }
 
+  .about-me {
+    width: 100vw;
+    background-image: url(./images/about-bg.png);
+    background-position: 100% 30%;
+  }
+
+  .about-title {
+    width: 566px;
+    height: 78px;
+    line-height: 82px;
+    margin-left: 142px;
+  }
+
+  .about-description {
+    width: 566px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 142px;
+  }
+
+  .get-resume-btn {
+    margin-left: 142px;
+  }
 }
