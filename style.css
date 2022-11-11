@@ -167,7 +167,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px 0;
+  padding: 50px 0;
   gap: 80px;
   position: absolute;
   width: 375px;
@@ -1030,5 +1030,75 @@
   .socials li {
     margin-top: 20px;
   }
+
+  .works-main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+
+  .recent-works {
+    width: 100vw;
+    margin-left: 143px;
+  }
+
+  .recent-works-title {
+    width: fit-content;
+    height: 52px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091E42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+  }
+
+  .cards-container {
+    width: fit-content;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin-left: -24px;
+  }
+
+  .card-1-image {
+    width: 684px;
+    height: 448px;
+  }
+
+  .card-description {
+    gap: 0px;
+    width: 448px;
+    height: 348px;
+    margin-left: 100px;
+    margin-top: -150px;
+  }
+
+  .card-title {
+    width: 448px;
+    height: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .supporting-text {
+    width: 448px;
+    height: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
 
 }
