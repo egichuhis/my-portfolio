@@ -973,6 +973,7 @@
   .menu-items {
     display: flex;
     list-style: none;
+    margin-right: 40px;
   }
 
   .headline {
@@ -1121,6 +1122,10 @@
 
   .card-works-container {
     width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0;
   }
 
 
