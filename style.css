@@ -1135,6 +1135,7 @@
     background-position: 100% 30%;
     border-bottom: 1px solid #fff;
     height: auto;
+    top: 2400px;
   }
 
 
@@ -1142,18 +1143,18 @@
     width: 566px;
     height: 78px;
     line-height: 82px;
-    margin-left: 142px;
+    margin-left: 60px;
   }
 
   .about-description {
     width: 566px;
     font-size: 20px;
     line-height: 32px;
-    margin-left: 142px;
+    margin-left: 60px;
   }
 
   .get-resume-btn {
-    margin-left: 142px;
+    margin-left: 60px;
   }
 
   .skills-section {
@@ -1161,7 +1162,10 @@
     flex-direction: row;
     height: 320px;
     justify-content: space-around;
-    margin-top: -240px;
+    top: 2960px;
+    border-top: #fff 1px solid;
+    padding-top: 250px;
+    padding-bottom: 150px;
   }
 
   .title-lang {
@@ -1170,12 +1174,16 @@
     display: flex;
   }
 
+  .skill-lang-col {
+    margin-left: -65px;
+  }
+
   .contact-form {
     width: 100vw;
     margin-left: 142px;
     display: grid;
     grid-template-columns: auto auto;
-    top: 5300px;
+    top: 3350px;
   }
 
   .contact-intro-cont {
