@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://github.com/egichuhis/my-portfolio)
+[Live Demo Link](https://github.com/egichuhis.github.io)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ Have git installed on your local machine/PC.
 
 ### Setup
 
-Open the terminal and run `git clone https://github.com/egichuhis/my-portfolio.git`
+Open the terminal and run `git clone https://github.com/egichuhis/egichuhis.github.io.git`
 
 ### Install
 
@@ -48,7 +48,7 @@ You can push your project to github using `git add .` , `git commit -m "message"
 
 👤 **Edwin Gichuhi**
 
-- GitHub: [@githubhandle](https://github.com/egichuhis/my-portfolio)
+- GitHub: [@githubhandle](https://github.com/egichuhis.github.io)
 - Twitter: [@twitterhandle](https://twitter.com/egichuhis)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edwin-gichuhi/)
 
@@ -56,7 +56,7 @@ You can push your project to github using `git add .` , `git commit -m "message"
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/egichuhis/my-portfolio/issues).
+Feel free to check the [issues page](https://github.com/egichuhis.github.io/issues).
 
 ## Show your support
 
