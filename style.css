@@ -68,7 +68,7 @@
   gap: 12px;
   position: absolute;
   width: 375px;
-  height: auto;
+  height: fit-content;
   left: 0;
   top: 92px;
   background: #1c1a19;
