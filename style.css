@@ -1254,5 +1254,6 @@
 
   .get-in-touch {
     align-self: flex-start;
+    margin-left: 62px;
   }
 }
