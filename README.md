@@ -33,6 +33,9 @@ Open your folder in the terminal and run `npm install`
 
 ### Usage
 
+### Accessibility
+This site has been scanned for accessibility using the accessibility tool
+
 Right-click on the index.html file and open with any browser.
 
 ### Run tests
