@@ -853,7 +853,7 @@
   color: #3c3a39;
   border: none;
   background: #fbf8f7;
-  margin-right: 20px;
+  margin-left: -36px;
 }
 
 .get-in-touch {
@@ -1174,7 +1174,7 @@
     flex-direction: row;
     height: 320px;
     justify-content: space-around;
-    top: 2960px;
+    top: 2940px;
     border-top: #fff 1px solid;
     padding-top: 250px;
     padding-bottom: 150px;
