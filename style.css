@@ -813,7 +813,7 @@
   width: 100%;
   margin-top: 24px;
   margin-left: 36px;
-  margin: 36px;
+  margin-right: 36px;
 }
 
 #email {
@@ -841,7 +841,8 @@
   flex-grow: 0;
   width: 100%;
   margin-top: 24px;
-  margin-left: 20px;
+  margin-left: 36px;
+  margin-right: 36px;
 }
 
 #message {
@@ -1249,11 +1250,11 @@
 
   #message {
     height: 100%;
-    width: 80%;
+    width: 100%;
   }
 
   .get-in-touch {
     align-self: flex-start;
-    margin-left: 62px;
+    margin-left: 70px;
   }
 }
