@@ -786,7 +786,7 @@
 }
 
 #name {
-  height: 18px;
+  height: auto;
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
@@ -814,7 +814,7 @@
 }
 
 #email {
-  height: 18px;
+  height: auto;
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
