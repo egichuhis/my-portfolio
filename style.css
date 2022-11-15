@@ -853,7 +853,7 @@
   color: #3c3a39;
   border: none;
   background: #fbf8f7;
-  margin-left: -36px;
+  margin-left: -24px;
 }
 
 .get-in-touch {
@@ -1249,7 +1249,7 @@
 
   #message {
     height: 100%;
-    width: 100%;
+    width: 80%;
   }
 
   .get-in-touch {
