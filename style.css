@@ -1134,7 +1134,7 @@
   }
 
   .card-works-container {
-    width: 100vw;
+    width: auto;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
