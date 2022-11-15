@@ -1257,4 +1257,12 @@
     align-self: flex-start;
     margin-left: 70px;
   }
+
+  .socials-footer li a i {
+    transition: transform 0.5s;
+  }
+
+  .socials-footer li a i:hover {
+    transform: scale(1.5);
+  }
 }
