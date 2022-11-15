@@ -857,6 +857,10 @@
   /* margin-left: -24px; */
 }
 
+.the-form label {
+  display: none;
+}
+
 .get-in-touch {
   display: flex;
   flex-direction: row;
