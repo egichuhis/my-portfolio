@@ -780,13 +780,15 @@
   right: 0;
   top: calc(50% - 48px / 2);
   border-bottom: #dbd8d7 solid 1px;
-  width: 110%;
+  width: 100%;
   margin-top: 24px;
   margin-left: 36px;
+  margin-right: 36px;
 }
 
 #name {
-  height: auto;
+  height: 36px;
+  width: 100%;
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
@@ -808,13 +810,15 @@
   right: 0;
   top: calc(50% - 48px / 2);
   border-bottom: #dbd8d7 solid 1px;
-  width: 110%;
+  width: 100%;
   margin-top: 24px;
   margin-left: 36px;
+  margin: 36px;
 }
 
 #email {
-  height: auto;
+  height: 36px;
+  width: 100%;
   left: 16px;
   right: 16px;
   top: calc(50% - 18px / 2);
@@ -835,9 +839,9 @@
   flex: none;
   order: 2;
   flex-grow: 0;
-  width: 110%;
+  width: 100%;
   margin-top: 24px;
-  margin-left: 36px;
+  margin-left: 20px;
 }
 
 #message {
