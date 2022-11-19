@@ -11,9 +11,10 @@
 - Git
 - Linters (HTML&CSS)
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://github.com/egichuhis.github.io)
+[Loom Project Walkthrough](https://www.loom.com/share/21d38093ba0d4c6ca7adef8826da91b7)
 
 ## Getting Started
 
