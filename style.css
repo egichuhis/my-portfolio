@@ -968,7 +968,8 @@
   position: relative;
   width: 375px;
   height: 812px;
-  background: #F7F7F9;
+  background: #3C3A39;
+  color: #fff;
 }
 
 .popup-toolbar-container {
@@ -1008,7 +1009,45 @@
   border-radius: 8px;
 }
 
-.
+.popup-menu-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.popup-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  position: absolute;
+  width: 327px;
+  height: 184px;
+  left: 24px;
+  top: 92px;
+  list-style: none;
+}
+
+.popup-menu-list li {
+  width: 327px;
+  height: 56px;
+  /* border-radius: 8px; */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  border-bottom: #6F6C6B solid 1px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFF5E1;
+}
 
 
 
