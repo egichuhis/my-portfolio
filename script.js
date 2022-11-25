@@ -1,12 +1,12 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu');
-const mobileMenu = document.querySelector('.mobile-menu');
+const mobileMenu = document.querySelector('mobile-menu');
 let menuOpen = false;
 hamburgerMenu.addEventListener('click', () => {
     if (!menuOpen) {
         hamburgerMenu.classList.add('open');
         menuOpen = true;
     } else {
-        hamburgerMenu.classList.remove('open');
+        hamburgerMenu.classList.remove('open);
         menuOpen = false;
     }
     mobileMenu.classList.toggle('open');
