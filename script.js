@@ -88,16 +88,13 @@ let cardContainer = document.getElementById("cards-container");
 cardContainer.innerHTML = `<div class="mask-group">
                             <div class="right-bloc">
                                 <h2 class="title-post">
-                                    Professional Art Printing Data
+                                    ${cardsData[0].cardTitle}
                                 </h2>
-                                <p class="other-cards-supporting-text">A daily selection of privately personalized
-                                    reads; no accounts or sign-ups required.
-                                    has been the industry's standard
-                                </p>
+                                <p class="other-cards-supporting-text">${cardsData[0].supportingText}</p>
                                 <ul class="other-tags">
-                                    <li class="html"><span>html</span></li>
-                                    <li class="bootstrap"><span>bootstrap</span></li>
-                                    <li class="ruby"><span>Ruby</span></li>
+                                    <li class="html"><span>${cardsData[0].otherTags.tech_1}</span></li>
+                                    <li class="bootstrap"><span>${cardsData[0].otherTags.tech_2}</span></li>
+                                    <li class="ruby"><span>${cardsData[0].otherTags.tech_3}</span></li>
                                 </ul>
                             </div>
                             <div class="action-sec">
@@ -105,6 +102,5 @@ cardContainer.innerHTML = `<div class="mask-group">
                                     <span>See Project</span>
                                 </button>
                             </div>
-                        </div>`;
-
-
+                            </div>
+                        `;
