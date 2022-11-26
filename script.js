@@ -83,9 +83,15 @@ const cardsData = [
 ]
 
 
-let cardContainer = document.getElementById("cards-container");
+let cardsContainer = document.getElementById("cards-container");
+let cardContainer = document.createElement("div");
 
-cardContainer.innerHTML = `<div class="mask-group">
+
+
+
+for (let i = 1; i < cardsData.length; i++) {
+
+    cardContainer.innerHTML = `<div class="mask-group">
                             <div class="right-bloc">
                                 <h2 class="title-post">
                                     ${cardsData[0].cardTitle}
@@ -104,3 +110,8 @@ cardContainer.innerHTML = `<div class="mask-group">
                             </div>
                             </div>
                         `;
+
+
+    cardsContainer.innerHTML = (cardContainer.innerHTML + cardContainer.innerHTML +
+        cardContainer.innerHTML + cardContainer.innerHTML + cardContainer.innerHTML + cardContainer.innerHTML);
+}
