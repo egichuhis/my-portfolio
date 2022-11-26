@@ -240,11 +240,14 @@
         <!-- details popup modal -->
 
         <div class="modal-container">
-            <span class="modal-header">
+            <div class="modal-header">
                 <span class="modal-title-container">
                     <span class="modal-title-text">Multi Post Stories</span>
                     <span class="modal-cancel-icon">
-                        <img src="./images/Icon-Cancel.png" alt="details modal cancel">
+                        <span>
+                            <img src="./images/Icon-Cancel.png" alt="details modal cancel">
+                        </span>
+
                     </span>
                 </span>
                 <ul class="modal-tags-container">
@@ -252,9 +255,12 @@
                     <li class="bootstrap-tag">Bootstrap</li>
                     <li class="ruby-tag">Ruby on rails</li>
                 </ul>
-            </span>
-            <img src="./images/detailModal.png" alt="details modal image" class="details-modal-picture">
-            <span class="modal-description-container">
+            </div>
+            <div class="modal-img-div">
+                <img src="./images/detailModal.png" alt="details modal image" class="details-modal-picture">
+            </div>
+
+            <div class="modal-description-container">
                 <p class="modal-details-description">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                     industry's standard
@@ -263,7 +269,21 @@
                     book. It has survived not only five centuries, but also the leap into electronic typesetting,
                     remaining essent
                 </p>
-            </span>
+                <div class="modal-action-bar">
+                    <span class="modal-btn-1">
+                        <p>See Live</p>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </span>
+                    <span class="modal-btn-2">
+                        <p>See Source</p>
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
         </div>
 
         <script src="./script.js"></script>
