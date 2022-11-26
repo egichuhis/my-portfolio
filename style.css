@@ -1159,7 +1159,6 @@ display: flex;
   flex-grow: 0;
 }
 
-.modal-img-div {}
 
 .details-modal-picture {
   width: 311px;
@@ -1584,4 +1583,14 @@ display: flex;
   .socials-footer li a i:hover {
     transform: scale(1.5);
   }
+
+  .modal-container {
+    width: 90vw;
+    height: 90vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
