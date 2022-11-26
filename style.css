@@ -1588,9 +1588,14 @@ display: flex;
     width: 90vw;
     height: 90vh;
     margin-left: 5%;
-    display: flex;
+    display: absolute;
     align-items: center;
     justify-content: center;
+  }
+
+  .modal-header {
+    display: absolute;
+    width: 90vw;
   }
 
 }
