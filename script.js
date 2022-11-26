@@ -1,11 +1,17 @@
 const hamburgerMenu = document.querySelector('#hamburger-menu');
 const menuItems = document.querySelector('.mobile-menu');
+const cancelMenu = document.querySelector('#popup-cancel');
 
 hamburgerMenu.addEventListener('click', displayMenu);
+cancelMenu.addEventListener('click', closeMenu);
 
 function displayMenu() {
-    menuItems.classList.remove('mobile-menu-view');
+    menuItems.classList.toggle('mobile-menu-view');
     
+}
+
+function closeMenu() {
+    menuItems.classList.toggle('mobile-menu-view');
 }
 
 // const mobileMenu = document.querySelector('.mobile-menu');

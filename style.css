@@ -986,7 +986,7 @@
   top: 0px;
 }
 
-.popup-cancel {
+#popup-cancel {
   position: absolute;
   left: 0px;
   right: 0px;
