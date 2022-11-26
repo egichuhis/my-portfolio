@@ -1117,47 +1117,45 @@
   order: 0;
   flex-grow: 0;
   list-style: none;
+  margin-top:-24px;
 }
 
 .modal-tags-container .html-tag {
-  width: 31px;
-  height: 16px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3C3A39;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: fit-content;
+    height: 36px;
+    border: 1px solid #979493;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .modal-tags-container .bootstrap-tag {
-  width: 66px;
-  height: 16px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3C3A39;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    width: fit-content;
+    height: 36px;
+    border: 1px solid #979493;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .modal-tags-container .ruby-tag {
-  width: 85px;
-  height: 16px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #3C3A39;
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 12px;
+  width: fit-content;
+  height: 36px;
+  border: 1px solid #979493;
   flex: none;
-  order: 0;
+  order: 1;
   flex-grow: 0;
 }
 
@@ -1275,13 +1273,6 @@
   order: 0;
   flex-grow: 0;
 }
-
-
-
-
-
-
-
 
 
 
